@@ -1,0 +1,15 @@
+{
+  "name": "ai-tally-extension",
+  "version": "1.0.0",
+  "description": "Track AI usage across Claude, ChatGPT, Gemini & more. Hit a limit? Switch instantly with your full conversation.",
+  "scripts": {
+    "icons": "node generate-icons.js",
+    "zip:chrome": "zip -r ai-tally-chrome.zip manifest.json popup.html popup.css popup.js background.js content.js icons/",
+    "zip:firefox": "zip -r ai-tally-firefox.zip manifest.json popup.html popup.css popup.js background.js content.js icons/",
+    "dev": "echo 'Load the extension folder directly in Chrome — no build step needed!'"
+  },
+  "keywords": ["ai", "chrome-extension", "firefox", "claude", "chatgpt", "gemini"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {}
+}

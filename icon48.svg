@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#0ea5e9"/>
+    </linearGradient>
+    <clipPath id="c">
+      <rect width="48" height="48" rx="10.56" ry="10.56"/>
+    </clipPath>
+  </defs>
+  <rect width="48" height="48" rx="10.56" fill="url(#g)" clip-path="url(#c)"/>
+  <text x="24" y="32.64" text-anchor="middle" font-size="24.96" font-family="system-ui">⚡</text>
+</svg>
